@@ -2,10 +2,7 @@ def image
 
 pipeline {
     agent any
-    tools { 
-        docker 'D3'
-        }
-
+    
     stages {
         stage('Build') {                 
             steps {
